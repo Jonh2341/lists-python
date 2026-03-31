@@ -14,3 +14,8 @@ average(users)
 
 double_enhancer = lambda x: x * 2
 print(double_enhancer(10)) 
+
+ex_numbers = [1, 2, 3, 4, 5, 6, 7]
+
+squared_num = list(map(lambda num: num ** 2, ex_numbers))
+print(squared_num)
